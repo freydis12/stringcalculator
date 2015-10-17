@@ -6,13 +6,13 @@ public class Calculator {
 		if(text.equals("")) {
 			return 0;
 		}
-/*		else if(text.contains(",")){
+		else if(text.contains(",")){
 			return sum(splitNumbers(text));
-		}*/
+		}
 		else
 			return 1;
 	}
-/*
+
 	private static int toInt(String number){
 		return Integer.parseInt(number);
 	}
@@ -26,6 +26,6 @@ public class Calculator {
         for(String number : numbers){
 		    total += toInt(number);
 		}
-		return total; */
-//    }
+		return total; 
+    }
 }
