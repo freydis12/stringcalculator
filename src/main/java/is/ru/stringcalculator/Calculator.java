@@ -3,9 +3,9 @@ package is.ru.stringcalculator;
 public class Calculator {
 
 	public static int add(String text){
-		if(text.equals("")){
+		if(text.equals("")) //{
 			return 0;
-		}
+/*		}
 		else if(text.contains(",")){
 			return sum(splitNumbers(text));
 		}
@@ -26,7 +26,7 @@ public class Calculator {
         for(String number : numbers){
 		    total += toInt(number);
 		}
-		return total;
+		return total; */
     }
 
 
